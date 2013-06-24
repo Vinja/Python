@@ -18,3 +18,9 @@ def product(numbers): # returns the product of a list of int's
         product*=i
     return product
   
+def remove_duplicates(num): # passes a list and returns the list sans dupes.  No Dupes!
+    dupeless = []
+    for i in num:
+        if i not in dupLess:
+            dupLess.append(i)
+    return dupeless
